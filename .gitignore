@@ -1,0 +1,69 @@
+# R specific files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Output and data directories
+/result/
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.RDS
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.swp
+*~
+*.bak
+*.tmp
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Compiled files
+*.o
+*.so
+*.dll
+
+# Log files
+*.log
+
+# Package specific
+packrat/lib*/
+packrat/src/
+
+# Documentation
+*.html
+*.pdf
+*.doc
+*.docx
+
+# Environment
+.Renviron
+.env
+
+# Cache
+/*_cache/
+/cache/
+
+# Dependency directories
+/node_modules/
+/bower_components/
+
+# Large media files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.avi
+*.mov

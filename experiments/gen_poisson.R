@@ -1,0 +1,20 @@
+out <- generate.ydata(p = p, by = d_t, R = R, family = family,
+                      dist_args = NULL,
+                      plot.ode = FALSE, plot.legend = FALSE,
+                      plot_ydata = FALSE)
+
+shifts <- apply(out$truth$eta,2,min) - c(rep(1,6),rep(0.1,4))
+scales <- c(1,1,1.5,1.5,1,1,rep(1,4))
+
+state_init <- (out$gen$eta[1,] - shifts)/scales
+
+out <- generate.ydata(p = p, by = d_t, R = R, family = family,
+                      dist_args = NULL, state_init = state_init,
+                      a0p = out$gen$a0[7:10],
+                      shifts = shifts, scales = scales,
+                      plot.ode = FALSE, plot.legend = FALSE,
+                      plot_ydata = FALSE)
+
+truth <- out$truth
+ydata <- out$ydata
+times <- out$times
