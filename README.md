@@ -2,6 +2,8 @@
 
 This project is designed to run experiments for ``A Joint estimation approach to sparse additive ordinary differential equations''. 
 
+https://doi.org/10.1007/s11222-022-10117-y
+
 ## Directory Structure
 
 - **R/**: R scripts for the main algorithm and auxillary utilities.
