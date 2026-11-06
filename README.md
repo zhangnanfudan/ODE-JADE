@@ -1,6 +1,6 @@
 # Project Overview
 
-This project is designed to run experiments for ``A Joint estimation approach to sparse additive ordinary differential equations''. 
+This project is designed to run experiments for ``A joint estimation approach to sparse additive ordinary differential equations''. 
 
 https://doi.org/10.1007/s11222-022-10117-y
 
